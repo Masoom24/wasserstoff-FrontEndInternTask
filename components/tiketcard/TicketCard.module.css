@@ -1,0 +1,117 @@
+.ticketWrapper {
+  background: linear-gradient(to bottom right, #130B2B, #3F1D66);
+  padding: 3rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+
+
+  min-height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+
+.heading h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.heading h2 span {
+  color: #ff6bcb;
+}
+
+.heading p {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.emailNote {
+  font-size: 0.9rem;
+  color: #d1c4e9;
+}
+
+.emailNote span {
+  color: #f06292;
+  font-weight: bold;
+}
+
+.ticket {
+  margin: 2rem auto 0;
+  display: flex;
+  background: #1d133c;
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 500px;
+  width: 90%;  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.left {
+  padding: 1.5rem;
+  flex: 2;
+  text-align: left;
+}
+
+.left h3 {
+  font-size: 1.25rem;
+  color: #ff80ab;
+  margin-bottom: 0.5rem;
+}
+
+.left p {
+  font-size: 0.9rem;
+  color: #b39ddb;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+  margin-right: 1rem;
+  border: 2px solid #ff4081;
+}
+
+.user strong {
+  font-size: 1rem;
+}
+
+.user p {
+  font-size: 0.8rem;
+  color: #ce93d8;
+}
+
+.right {
+  flex: 1;
+  background: linear-gradient(to bottom, #512da8, #9575cd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+}
+
+.admit {
+  transform: rotate(180deg);
+}
+
+.additionalInfo {
+  display: block;
+  margin-top: 0.5rem;
+  color: #ffb74d;
+}
